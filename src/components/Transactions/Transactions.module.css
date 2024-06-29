@@ -1,0 +1,23 @@
+.transactionHistory {
+    width: 200px;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.transactionHistory th,
+.transactionHistory td {
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: center;
+    min-width: 200px;
+}
+
+.transactionHistory th {
+    background-color: #131313;
+    text-align: center;
+    color: #fff;
+}
+
+.transactionHistory tr:nth-child(2n+1) {
+    background-color: #a8a8a8;
+}
